@@ -11,3 +11,6 @@ install:
   - cargo -vV
 build_script:
   - cargo build
+artifacts:
+  - path: target/release/ruplace.exe
+    name: concom
