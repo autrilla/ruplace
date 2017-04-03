@@ -10,7 +10,7 @@ install:
   - rustc -vV
   - cargo -vV
 build_script:
-  - cargo build
+  - cargo build --release
 artifacts:
   - path: target/release/ruplace.exe
     name: concom
